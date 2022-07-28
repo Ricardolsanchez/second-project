@@ -1,0 +1,42 @@
+.checkout__bill{
+    background: #FFF;
+    padding: 30px;
+    border:solid 3px #c5f3c7;
+}
+
+.checkout__total{
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.addToCart__BTN{
+    padding: 7px 13px;
+    outline: none;
+    border: none;
+    background: #212245;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.addToCart__BTN:hover{
+    opacity: 0.5;
+}
+
+.annoucement-text p{
+    font-size: .8rem;
+}
+
+.checkout__form{
+    background: #FFF;
+    border: solid 3px #c5f3c7;
+}
+
+@media only screen and (max-width: 768px){
+    .checkout__bill h6{
+        font-size: 0.9rem;
+    }
+
+    .checkout__bill{
+        margin-top: 40px;
+    }
+}
